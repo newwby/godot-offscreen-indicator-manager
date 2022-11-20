@@ -1,4 +1,4 @@
-#### Note: Repo currently empty, initial commit coming once I set up demo project
+#### Note: No demo project as of yet, coming soon
 
 ---
 # Offscreen Indicator Manager
