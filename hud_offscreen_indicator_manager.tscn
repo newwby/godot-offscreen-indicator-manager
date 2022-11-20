@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/control/ui_ingame/hud_offscreen_indicator_manager.gd" type="Script" id=1]
+[ext_resource path="res://art/ship_full_devonly/rocinante_full_frame_with_engine.png" type="Texture" id=3]
+[ext_resource path="res://ui/hud/hazard_offscreen_indicator_64px.png" type="Texture" id=4]
+
+[node name="OffscreenIndicatorManager" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IndicatorHolder" type="Container" parent="."]
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayerMarker" type="Sprite" parent="IndicatorHolder"]
+visible = false
+position = Vector2( 39.2861, -5.6123 )
+scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 3 )
+
+[node name="OffscreenIndicatorSprite" type="Sprite" parent="IndicatorHolder"]
+visible = false
+position = Vector2( 0, -25 )
+texture = ExtResource( 4 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+margin_left = 25.0
+margin_top = 25.0
+margin_right = 1895.0
+margin_bottom = 1055.0
