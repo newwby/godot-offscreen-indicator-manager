@@ -13,9 +13,10 @@ Revisions or tweaking may be needed to support Godot 4 and beyond, I have yet to
 ---
 
 #### How to use (pending release package and demo project):
-Download/ hud_offscreen_indicator_manager.gd
-Download/ hud_offscreen_indicator_manager.tscn
-Download/ hazard_offscreen_indicator_64px.png
+
+Download the following files:
+
+hud_offscreen_indicator_manager.gd, hud_offscreen_indicator_manager.tscn, hazard_offscreen_indicator_64px.png
 
 1) Follow the instructions in the .gd script (or see below for detailed instructions) for setup.
 2) Fix the broken sprite texture path (open the .tscn scene in Godot and set the hazard_offscreen_indicator_64px texture to the OffscreenIndicatorSprite node)
